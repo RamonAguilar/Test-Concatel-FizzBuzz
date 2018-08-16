@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
+﻿<%@ Page Title="Fizz Buzz" Language="C#" MasterPageFile="~/Site.master" AutoEventWireup="true"
     CodeFile="Default.aspx.cs" Inherits="_Default" %>
 
 <asp:Content ID="HeaderContent" runat="server" ContentPlaceHolderID="HeadContent">
@@ -17,7 +17,7 @@
 
      </p>
 
-     <asp:Label ID="Label2" runat="server" Text="Insert an integer"></asp:Label>
+     <asp:Label ID="Labeltxt" runat="server" Text="Insert an integer: "></asp:Label>
      <asp:TextBox ID="TextBox1" runat="server" ></asp:TextBox>
      <br/><br/>
      <asp:Button ID="Button1" runat="server" Text="Start FizzBuzz" onclick="Button1_Click" />
@@ -25,13 +25,13 @@
 
      <div class="clear"style="color:green;">
 
-       <asp:Label ID="Label1" runat="server" Text=""></asp:Label>
+       <asp:Label ID="LabelSucces" runat="server" Text=""></asp:Label>
             
      </div>
 
      <div class="Error" style="color:red;>
 
-       <asp:Label ID="Label3" runat="server" Text=""></asp:Label>
+       <asp:Label ID="LabelError" runat="server" Text=""></asp:Label>
 
      </div>
 

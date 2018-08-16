@@ -48,11 +48,11 @@ namespace FizzBuzz
         public int readFileCustomConfig() {
             try{
 
-                int number = 0;
-                string ruteRelative = HttpRuntime.AppDomainAppPath;
-                string rute = ruteRelative + @"\customConfigFor.txt";
+                int numberParsed = 0;
+                string ruteRelativeToCustomFile = HttpRuntime.AppDomainAppPath;
+                string ruteCustomFile = ruteRelativeToCustomFile + @"\customConfigFor.txt";
                 string configtxt = "";
-                using (StreamReader sr = File.OpenText(rute))
+                using (StreamReader sr = File.OpenText(ruteCustomFile))
                 {
                     string s = "";
                     while ((s = sr.ReadLine()) != null)
@@ -60,16 +60,16 @@ namespace FizzBuzz
                         configtxt = configtxt + s;
                     }
 
-                    string[] partes = configtxt.Split(':');
+                    string[] parts = configtxt.Split(':');
 
-                    if (Int32.TryParse(partes[1], out number))
+                    if (Int32.TryParse(parts[1], out numberParsed))
                     {
                         log.Warn("Value cannot be parse to integer.");
-                        number = int.Parse(partes[1]);
-                        return number;
+                        numberParsed = int.Parse(parts[1]);
+                        return numberParsed;
 
                     }
-                    else if (partes[1] == "")
+                    else if (parts[1] == "")
                     {
                         log.Error("Value in customConfigFor.txt is empty, the loop config it is now the client number +100.");
                         return 100;
@@ -89,11 +89,11 @@ namespace FizzBuzz
             }
         }
 
-        public void createFile( string listNumbers) {
+        public void createFile( string listNumbersToFile) {
 
             log.Info("Beginning of the createFile function");
 
-            string fileBase = "\nLog Entry :\n " + DateTime.Now.ToLongTimeString() +" "+ DateTime.Now.ToLongDateString() + "\r\n  " + "\r\n  " + listNumbers + "\r\n-------------------------------";
+            string fileBase = "\nLog Entry :\n " + DateTime.Now.ToLongTimeString() + " " + DateTime.Now.ToLongDateString() + "\r\n  " + "\r\n  " + listNumbersToFile + "\r\n-------------------------------";
             string ruteRelative = HttpRuntime.AppDomainAppPath;
             string rute = ruteRelative+@"\Register.txt";
             
@@ -117,7 +117,7 @@ namespace FizzBuzz
 
                     using (StreamWriter w = File.AppendText(rute))
                     {
-                        Log(listNumbers, w);
+                        Log(listNumbersToFile, w);
 
                     }  
                 
@@ -142,7 +142,7 @@ namespace FizzBuzz
             {
                 log.Info("Beginning of the createListFizzBuzz function");
 
-                string listNumbers = "";
+                string listNumberSend = "";
 
                 Boolean numberNoFizzBuzz = true;
 
@@ -154,35 +154,35 @@ namespace FizzBuzz
                     if (i % 3 == 0)
                     {
 
-                        listNumbers = listNumbers + "Fizz";
+                        listNumberSend = listNumberSend + "Fizz";
                         numberNoFizzBuzz = false;
 
                     }
                     if (i % 5 == 0)
                     {
 
-                        listNumbers = listNumbers + "Buzz";
+                        listNumberSend = listNumberSend + "Buzz";
                         numberNoFizzBuzz = false;
 
                     } if (numberNoFizzBuzz == true)
                     {
 
-                        listNumbers = listNumbers + i;
+                        listNumberSend = listNumberSend + i;
 
                     }
 
                     numberNoFizzBuzz = true;
                     if (i < number + 100)
                     {
-                        listNumbers = listNumbers + ", ";
+                        listNumberSend = listNumberSend + ", ";
                     }
                 }
 
                 log.Info("End of the createListFizzBuzz function");
 
-                log.Debug(listNumbers);
+                log.Debug(listNumberSend);
 
-                return listNumbers;
+                return listNumberSend;
 
             }catch(Exception e){
 
@@ -192,44 +192,14 @@ namespace FizzBuzz
             }
         }
 
-        public string GetListNumber(int numberSend)
+        public string GetListNumber(int numberGet)
         {
-            //the reason is becouse this program no need multithreading and this spend a lot of resources
-            //var options = new ParallelOptions { MaxDegreeOfParallelism = 10};
-
-            //Parallel.ForEach(objectList, options, item =>
-            //    {
-            //        try
-            //        {
-                        
-
-            //            log.Info("Beginning of the funciton GetListNumber");
-
-            //            string listNumbers = createListFizzBuzz(numberSend);
-
-            //            createFile(listNumbers);
-
-            //            log.Info("End of the funciton GetListNumber");
-
-            //            return listNumbers;
-
-            //        }
-            //        catch (Exception e)
-            //        {
-
-            //            log.Error(e.ToString());
-            //            return e.ToString();
-
-            //        }
-
-            //    });
-
 
             try
             {
                 log.Info("Beginning of the GetListNumber function");
 
-                string listNumbers = createListFizzBuzz(numberSend);
+                string listNumbers = createListFizzBuzz(numberGet);
 
                 createFile(listNumbers);
 

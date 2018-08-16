@@ -22,46 +22,47 @@ public partial class _Default : System.Web.UI.Page
         try
         {
 
-            int number;
-            string TotalDays;
+            int numberFromUser;
+            string listOfNumbers;
             //creating the object of WCF service client   
-            ServiceReference.FizzBuzzClient age = new ServiceReference.FizzBuzzClient();
+            ServiceReference.FizzBuzzClient service = new ServiceReference.FizzBuzzClient();
 
-            if (Int32.TryParse(TextBox1.Text, out number))
+            if (Int32.TryParse(TextBox1.Text, out numberFromUser))
             {
                 //assigning the input values to the variables   
-                number = int.Parse(TextBox1.Text);
+                numberFromUser = int.Parse(TextBox1.Text);
 
                 //assigning the output value from service Response   
-                TotalDays = age.GetListNumber(number);
+                listOfNumbers = service.GetListNumber(numberFromUser);
 
                 //assigning the output value to the lable to show user   
-                Label1.Text = TotalDays;
-                Label3.Text = "";
+                LabelSucces.Text = listOfNumbers;
+                LabelError.Text = "";
                 log.Info("Value sent correctly.");
-                log.Debug("Number = "+number);
-                age.Close();
+                log.Debug("Number = " + numberFromUser);
+                log.Debug("List of numbers = " + listOfNumbers);
+                service.Close();
 
             }
             else if (TextBox1.Text == "")
             {
-                Label1.Text = "";
-                log.Warn("Warning: value has not been introduced");
-                Label3.Text = "Warning: value has not been introduced.<br/>   Please introduce an integer.";
+                LabelSucces.Text = "";
+                log.Warn("Warning: value has not been introduced. ");
+                LabelError.Text = "Warning: value has not been introduced.<br/>Please enter a number that is not decimal.";
 
             }
             else
             {
-                Label1.Text = "";
-                log.Error("Error: value has not been introduced");
-                Label3.Text = "Error: value is not an integer";
+                LabelSucces.Text = "";
+                log.Error("Error: the value is not a integer number");
+                LabelError.Text = "Error: the value is not a integer number.<br/>Please enter a number that is not decimal.";
 
             }
         }catch(Exception ex){
 
             log.Error(ex.ToString());
-            Label1.Text = "";
-            Label3.Text = ex.ToString();
+            LabelSucces.Text = "";
+            LabelError.Text = "Error the aplication can not work.";
         
         }
     }

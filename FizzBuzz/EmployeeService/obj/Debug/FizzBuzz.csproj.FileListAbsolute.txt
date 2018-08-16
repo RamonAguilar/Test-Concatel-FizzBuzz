@@ -17,3 +17,10 @@ C:\Users\Ana\Desktop\Projecto en C# Ejercicio 1 FizzBuzz por Ramón Aguilar Rojo
 C:\Users\Ana\Desktop\Projecto en C# Ejercicio 1 FizzBuzz por Ramón Aguilar Rojo\FizzBuzz\EmployeeService\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
 C:\Users\Ana\Desktop\Projecto en C# Ejercicio 1 FizzBuzz por Ramón Aguilar Rojo\FizzBuzz\EmployeeService\obj\Debug\EmployeeService.dll
 C:\Users\Ana\Desktop\Projecto en C# Ejercicio 1 FizzBuzz por Ramón Aguilar Rojo\FizzBuzz\EmployeeService\obj\Debug\EmployeeService.pdb
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\bin\EmployeeService.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\bin\EmployeeService.pdb
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\bin\log4net.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\bin\log4net.xml
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\obj\Debug\FizzBuzz.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\obj\Debug\EmployeeService.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\obj\Debug\EmployeeService.pdb
