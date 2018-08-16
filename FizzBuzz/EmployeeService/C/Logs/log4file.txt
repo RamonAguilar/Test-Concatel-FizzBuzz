@@ -1,0 +1,20 @@
+16:31:00,047 [thread] INFO - Beginning of the funciton GetListNumber
+16:31:00,052 [thread] INFO - Beginning of the funciton createListFizzBuzz
+16:31:00,053 [thread] INFO - End of the funciton createListFizzBuzz
+16:31:00,056 [thread] INFO - Register Succes
+16:31:00,056 [thread] INFO - End of the funciton GetListNumber
+16:32:29,000 [thread] INFO - Beginning of the funciton GetListNumber
+16:32:29,001 [thread] INFO - Beginning of the funciton createListFizzBuzz
+16:32:29,002 [thread] INFO - End of the funciton createListFizzBuzz
+16:32:29,005 [thread] INFO - Register Succes
+16:32:29,008 [thread] INFO - End of the funciton GetListNumber
+16:33:13,928 [thread] INFO - Beginning of the funciton GetListNumber
+16:33:13,931 [thread] INFO - Beginning of the funciton createListFizzBuzz
+16:33:13,932 [thread] INFO - End of the funciton createListFizzBuzz
+16:33:13,936 [thread] INFO - Register Succes
+16:33:13,936 [thread] INFO - End of the funciton GetListNumber
+16:33:14,281 [thread] INFO - Beginning of the funciton GetListNumber
+16:33:14,282 [thread] INFO - Beginning of the funciton createListFizzBuzz
+16:33:14,282 [thread] INFO - End of the funciton createListFizzBuzz
+16:33:14,284 [thread] INFO - Register Succes
+16:33:14,284 [thread] INFO - End of the funciton GetListNumber

@@ -1,0 +1,5 @@
+c:\users\ana\documents\visual studio 2010\Projects\EmployeeService\EmployeeService\bin\EmployeeService.dll
+c:\users\ana\documents\visual studio 2010\Projects\EmployeeService\EmployeeService\bin\EmployeeService.pdb
+c:\users\ana\documents\visual studio 2010\Projects\EmployeeService\EmployeeService\obj\Debug\EmployeeService.dll
+c:\users\ana\documents\visual studio 2010\Projects\EmployeeService\EmployeeService\obj\Debug\EmployeeService.pdb
+C:\Users\Ana\Documents\Visual Studio 2010\Projects\EmployeeService\EmployeeService\obj\Debug\EmployeeService.csprojResolveAssemblyReference.cache

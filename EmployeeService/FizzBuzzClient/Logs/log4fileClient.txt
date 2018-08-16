@@ -1,0 +1,19 @@
+20:29:54,453 [thread] INFO - Value send correctly.
+20:29:54,459 [thread] DEBUG - Number = 12
+20:29:57,110 [thread] ERROR - Error: value has not been introduced
+20:30:00,522 [thread] ERROR - Error: value has not been introduced
+20:30:03,526 [thread] WARN - Warning: value has not been introduced
+20:30:07,287 [thread] INFO - Value send correctly.
+20:30:07,287 [thread] DEBUG - Number = 123
+21:26:22,854 [thread] INFO - Value sent correctly.
+21:26:22,860 [thread] DEBUG - Number = 1
+21:26:25,641 [thread] ERROR - Error: value has not been introduced
+21:26:28,680 [thread] WARN - Warning: value has not been introduced
+21:26:31,287 [thread] INFO - Value sent correctly.
+21:26:31,288 [thread] DEBUG - Number = 12
+21:26:34,702 [thread] INFO - Value sent correctly.
+21:26:34,703 [thread] DEBUG - Number = 145
+21:26:36,411 [thread] INFO - Value sent correctly.
+21:26:36,411 [thread] DEBUG - Number = 145
+21:26:42,553 [thread] INFO - Value sent correctly.
+21:26:42,554 [thread] DEBUG - Number = 19
