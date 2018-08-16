@@ -108,3 +108,204 @@
 19:52:06,447 [thread] INFO - File created
 19:52:06,449 [thread] INFO - End of the createFile function
 19:52:06,450 [thread] INFO - End of the GetListNumber function
+22:14:25,653 [thread] INFO - Beginning of the GetListNumber function
+22:14:25,659 [thread] INFO - Beginning of the createListFizzBuzz function
+22:14:25,660 [thread] INFO - End of the createListFizzBuzz function
+22:14:25,660 [thread] DEBUG - Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112
+22:14:25,661 [thread] INFO - End of the GetListNumber function
+22:22:14,656 [thread] INFO - Beginning of the GetListNumber function
+22:22:14,662 [thread] INFO - Beginning of the createListFizzBuzz function
+22:22:14,857 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 61
+22:22:14,893 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.GetListNumber(Int32 numberGet) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 116
+22:24:55,440 [thread] INFO - Beginning of the GetListNumber function
+22:24:55,446 [thread] INFO - Beginning of the createListFizzBuzz function
+22:24:55,496 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 61
+22:24:55,497 [thread] INFO - End of the GetListNumber function
+22:24:56,125 [thread] INFO - Beginning of the GetListNumber function
+22:24:56,125 [thread] INFO - Beginning of the createListFizzBuzz function
+22:24:56,155 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 61
+22:24:56,156 [thread] INFO - End of the GetListNumber function
+22:27:02,703 [thread] INFO - Beginning of the GetListNumber function
+22:27:02,708 [thread] INFO - Beginning of the createListFizzBuzz function
+22:27:02,713 [thread] INFO - End of the createListFizzBuzz function
+22:27:02,713 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:27:02,714 [thread] INFO - End of the GetListNumber function
+22:27:02,851 [thread] INFO - Beginning of the GetListNumber function
+22:27:02,852 [thread] INFO - Beginning of the createListFizzBuzz function
+22:27:02,852 [thread] INFO - End of the createListFizzBuzz function
+22:27:02,853 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:27:02,853 [thread] INFO - End of the GetListNumber function
+22:30:11,694 [thread] INFO - Beginning of the GetListNumber function
+22:30:11,700 [thread] INFO - Beginning of the createListFizzBuzz function
+22:30:11,704 [thread] INFO - End of the createListFizzBuzz function
+22:30:11,704 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:30:11,704 [thread] INFO - End of the GetListNumber function
+22:36:26,202 [thread] INFO - Beginning of the GetListNumber function
+22:36:26,211 [thread] INFO - Beginning of the createListFizzBuzz function
+22:36:26,261 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 63
+22:36:26,291 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.GetListNumber(Int32 numberGet) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 118
+22:39:53,133 [thread] INFO - Beginning of the GetListNumber function
+22:39:53,139 [thread] INFO - Beginning of the createListFizzBuzz function
+22:39:53,191 [thread] ERROR - System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 63
+22:39:53,192 [thread] INFO - End of the GetListNumber function
+22:43:54,174 [thread] INFO - Beginning of the GetListNumber function
+22:43:54,182 [thread] INFO - Beginning of the createListFizzBuzz function
+22:43:54,183 [thread] WARN - Value cannot be parse to integer.
+22:43:54,184 [thread] INFO - End of the createListFizzBuzz function
+22:43:54,185 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, 
+22:43:54,186 [thread] INFO - Beginning of the createFile function
+22:43:54,190 [thread] INFO - Beginning of the log function
+22:43:54,190 [thread] INFO - End of the log function
+22:43:54,196 [thread] INFO - File created
+22:43:54,197 [thread] INFO - End of the createFile function
+22:43:54,197 [thread] INFO - End of the GetListNumber function
+22:51:39,424 [thread] INFO - Beginning of the GetListNumber function
+22:51:39,430 [thread] INFO - Beginning of the createListFizzBuzz function
+22:51:39,431 [thread] WARN - Value cannot be parse to integer.
+22:51:39,431 [thread] INFO - End of the createListFizzBuzz function
+22:51:39,432 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:51:39,433 [thread] INFO - Beginning of the createFile function
+22:51:39,435 [thread] INFO - Beginning of the log function
+22:51:39,436 [thread] INFO - End of the log function
+22:51:39,436 [thread] INFO - File created
+22:51:39,437 [thread] INFO - End of the createFile function
+22:51:39,437 [thread] INFO - End of the GetListNumber function
+22:55:05,906 [thread] INFO - Beginning of the GetListNumber function
+22:55:05,906 [thread] INFO - Beginning of the createListFizzBuzz function
+22:55:05,907 [thread] WARN - Value cannot be parse to integer.
+22:55:05,907 [thread] INFO - End of the createListFizzBuzz function
+22:55:05,908 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:55:05,908 [thread] INFO - Beginning of the createFile function
+22:55:05,909 [thread] INFO - Beginning of the log function
+22:55:05,909 [thread] INFO - End of the log function
+22:55:05,909 [thread] INFO - File created
+22:55:05,912 [thread] INFO - End of the createFile function
+22:55:05,913 [thread] INFO - End of the GetListNumber function
+22:57:46,857 [thread] INFO - Beginning of the GetListNumber function
+22:57:46,858 [thread] INFO - Beginning of the createListFizzBuzz function
+22:57:46,858 [thread] WARN - Value cannot be parse to integer.
+22:57:46,859 [thread] INFO - End of the createListFizzBuzz function
+22:57:46,859 [thread] DEBUG - 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:57:46,859 [thread] INFO - Beginning of the createFile function
+22:57:46,860 [thread] INFO - Beginning of the log function
+22:57:46,861 [thread] INFO - End of the log function
+22:57:46,862 [thread] INFO - File created
+22:57:46,864 [thread] INFO - End of the createFile function
+22:57:46,865 [thread] INFO - End of the GetListNumber function
+22:59:36,839 [thread] INFO - Beginning of the GetListNumber function
+22:59:36,840 [thread] INFO - Beginning of the createListFizzBuzz function
+22:59:36,840 [thread] WARN - Value cannot be parse to integer.
+22:59:36,841 [thread] INFO - End of the createListFizzBuzz function
+22:59:36,841 [thread] DEBUG - FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112, 113, Fizz, Buzz, 116, Fizz, 118, 119, FizzBuzz, 121, 122, Fizz, 124, Buzz, Fizz, 127, 128, Fizz, Buzz, 131, Fizz, 133, 134, FizzBuzz, 136, 137, Fizz, 139, Buzz, Fizz, 142, 143, Fizz, Buzz
+22:59:36,842 [thread] INFO - Beginning of the createFile function
+22:59:36,842 [thread] INFO - Beginning of the log function
+22:59:36,843 [thread] INFO - End of the log function
+22:59:36,843 [thread] INFO - File created
+22:59:36,846 [thread] INFO - End of the createFile function
+22:59:36,846 [thread] INFO - End of the GetListNumber function
+23:00:13,845 [thread] INFO - Beginning of the GetListNumber function
+23:00:13,846 [thread] INFO - Beginning of the createListFizzBuzz function
+23:00:13,846 [thread] WARN - Value cannot be parse to integer.
+23:00:13,847 [thread] INFO - End of the createListFizzBuzz function
+23:00:13,847 [thread] DEBUG - 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz
+23:00:13,847 [thread] INFO - Beginning of the createFile function
+23:00:13,848 [thread] INFO - Beginning of the log function
+23:00:13,849 [thread] INFO - End of the log function
+23:00:13,849 [thread] INFO - File created
+23:00:13,851 [thread] INFO - End of the createFile function
+23:00:13,852 [thread] INFO - End of the GetListNumber function
+23:03:18,220 [thread] INFO - Beginning of the GetListNumber function
+23:03:18,221 [thread] INFO - Beginning of the createListFizzBuzz function
+23:03:18,221 [thread] WARN - Value cannot be parse to integer.
+23:03:18,224 [thread] INFO - End of the createListFizzBuzz function
+23:03:18,225 [thread] DEBUG - Buzz, -49, Fizz, -47, -46, FizzBuzz, -44, -43, Fizz, -41, Buzz, Fizz, -38, -37, Fizz, Buzz, -34, Fizz, -32, -31, FizzBuzz, -29, -28, Fizz, -26, Buzz, Fizz, -23, -22, Fizz, Buzz, -19, Fizz, -17, -16, FizzBuzz, -14, -13, Fizz, -11, Buzz, Fizz, -8, -7, Fizz, Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz
+23:03:18,225 [thread] INFO - Beginning of the createFile function
+23:03:18,226 [thread] INFO - Beginning of the log function
+23:03:18,226 [thread] INFO - End of the log function
+23:03:18,327 [thread] INFO - File created
+23:03:18,329 [thread] INFO - End of the createFile function
+23:03:18,331 [thread] INFO - End of the GetListNumber function
+23:04:29,016 [thread] INFO - Beginning of the GetListNumber function
+23:04:29,016 [thread] INFO - Beginning of the createListFizzBuzz function
+23:04:29,017 [thread] WARN - Value cannot be parse to integer.
+23:04:29,017 [thread] INFO - End of the createListFizzBuzz function
+23:04:29,017 [thread] DEBUG - Buzz, -49, Fizz, -47, -46, FizzBuzz, -44, -43, Fizz, -41, Buzz, Fizz, -38, -37, Fizz, Buzz, -34, Fizz, -32, -31, FizzBuzz, -29, -28, Fizz, -26, Buzz, Fizz, -23, -22, Fizz, Buzz, -19, Fizz, -17, -16, FizzBuzz, -14, -13, Fizz, -11, Buzz, Fizz, -8, -7, Fizz, Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz
+23:04:29,018 [thread] INFO - Beginning of the createFile function
+23:04:29,019 [thread] INFO - Beginning of the log function
+23:04:29,019 [thread] INFO - End of the log function
+23:04:29,020 [thread] INFO - File created
+23:04:29,022 [thread] INFO - End of the createFile function
+23:04:29,023 [thread] INFO - End of the GetListNumber function
+23:04:51,773 [thread] INFO - Beginning of the GetListNumber function
+23:04:51,773 [thread] INFO - Beginning of the createListFizzBuzz function
+23:04:51,774 [thread] WARN - Value cannot be parse to integer.
+23:04:51,774 [thread] INFO - End of the createListFizzBuzz function
+23:04:51,774 [thread] DEBUG - Buzz, -49, Fizz, -47, -46, FizzBuzz, -44, -43, Fizz, -41, Buzz, Fizz, -38, -37, Fizz, Buzz, -34, Fizz, -32, -31, FizzBuzz, -29, -28, Fizz, -26, Buzz, Fizz, -23, -22, Fizz, Buzz, -19, Fizz, -17, -16, FizzBuzz, -14, -13, Fizz, -11, Buzz, Fizz, -8, -7, Fizz, Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz
+23:04:51,775 [thread] INFO - Beginning of the createFile function
+23:04:51,775 [thread] INFO - Beginning of the log function
+23:04:51,776 [thread] INFO - End of the log function
+23:04:51,777 [thread] INFO - File created
+23:04:51,781 [thread] INFO - End of the createFile function
+23:04:51,781 [thread] INFO - End of the GetListNumber function
+23:05:59,044 [thread] INFO - Beginning of the GetListNumber function
+23:05:59,044 [thread] INFO - Beginning of the createListFizzBuzz function
+23:05:59,045 [thread] WARN - Value cannot be parse to integer.
+23:05:59,045 [thread] INFO - End of the createListFizzBuzz function
+23:05:59,045 [thread] DEBUG - Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz
+23:05:59,046 [thread] INFO - Beginning of the createFile function
+23:05:59,047 [thread] INFO - Beginning of the log function
+23:05:59,047 [thread] INFO - End of the log function
+23:05:59,048 [thread] INFO - File created
+23:05:59,050 [thread] INFO - End of the createFile function
+23:05:59,051 [thread] INFO - End of the GetListNumber function
+23:08:04,825 [thread] INFO - Beginning of the GetListNumber function
+23:08:04,826 [thread] INFO - Beginning of the createListFizzBuzz function
+23:08:04,826 [thread] WARN - Value cannot be parse to integer.
+23:08:04,827 [thread] INFO - End of the createListFizzBuzz function
+23:08:04,827 [thread] DEBUG - Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz
+23:08:04,827 [thread] INFO - Beginning of the createFile function
+23:08:04,828 [thread] INFO - Beginning of the log function
+23:08:04,828 [thread] INFO - End of the log function
+23:08:04,829 [thread] INFO - File created
+23:08:04,831 [thread] INFO - End of the createFile function
+23:08:04,832 [thread] INFO - End of the GetListNumber function
+23:09:02,760 [thread] INFO - Beginning of the GetListNumber function
+23:09:02,761 [thread] INFO - Beginning of the createListFizzBuzz function
+23:09:02,761 [thread] WARN - Value cannot be parse to integer.
+23:09:02,762 [thread] INFO - End of the createListFizzBuzz function
+23:09:02,762 [thread] DEBUG - 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107
+23:09:02,762 [thread] INFO - Beginning of the createFile function
+23:09:02,763 [thread] INFO - Beginning of the log function
+23:09:02,763 [thread] INFO - End of the log function
+23:09:02,764 [thread] INFO - File created
+23:09:02,766 [thread] INFO - End of the createFile function
+23:09:02,767 [thread] INFO - End of the GetListNumber function
+2018-08-17  01:09:52[thread] INFO - Beginning of the GetListNumber function
+2018-08-17  01:09:52[thread] INFO - Beginning of the createListFizzBuzz function
+2018-08-17  01:09:52[thread] WARN - Value cannot be parse to integer.
+2018-08-17  01:09:52[thread] INFO - End of the createListFizzBuzz function
+2018-08-17  01:09:52[thread] DEBUG - 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107
+2018-08-17  01:09:52[thread] INFO - Beginning of the createFile function
+2018-08-17  01:09:52[thread] INFO - Beginning of the log function
+2018-08-17  01:09:52[thread] INFO - End of the log function
+2018-08-17  01:09:52[thread] INFO - File created
+2018-08-17  01:09:52[thread] INFO - End of the createFile function
+2018-08-17  01:09:52[thread] INFO - End of the GetListNumber function
+2018-08-17  01:10:48[30] INFO - Beginning of the GetListNumber function
+2018-08-17  01:10:48[30] INFO - Beginning of the createListFizzBuzz function
+2018-08-17  01:10:48[30] WARN - Value cannot be parse to integer.
+2018-08-17  01:10:48[30] INFO - End of the createListFizzBuzz function
+2018-08-17  01:10:48[30] DEBUG - 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112, 113, Fizz, Buzz, 116, Fizz
+2018-08-17  01:10:48[30] INFO - Beginning of the createFile function
+2018-08-17  01:10:48[30] INFO - Beginning of the log function
+2018-08-17  01:10:48[30] INFO - End of the log function
+2018-08-17  01:10:48[30] INFO - File created
+2018-08-17  01:10:48[30] INFO - End of the createFile function
+2018-08-17  01:10:48[30] INFO - End of the GetListNumber function

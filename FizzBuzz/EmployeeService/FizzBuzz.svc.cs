@@ -11,129 +11,43 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.UI;
 
-
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
 
 namespace FizzBuzz
 {
-    // NOTE: You can use the "Rename" command on the "Refactor" menu to change the class name "EmpInfoService" in code, svc and config file together.
+
     public class FizzBuzz : IFizzBuzz
     {
 
         private static readonly log4net.ILog log = log4net.LogManager.GetLogger(System.Reflection.MethodBase.GetCurrentMethod().DeclaringType);
 
-        public static void Log(string logMessage, TextWriter w)
+        fileClass fileMetodes = new fileClass();
+
+        public int readFileCustomConfig()
         {
-            try{
-
-                log.Info("Beginning of the log function");
-
-                w.Write("\r\nLog Entry : ");
-                w.WriteLine("{0} {1}", DateTime.Now.ToLongTimeString(),
-                    DateTime.Now.ToLongDateString());
-                w.WriteLine("  ");
-                w.WriteLine("  {0}", logMessage);
-                w.WriteLine("-------------------------------");
-
-                log.Info("End of the log function");
-
-            }catch (Exception ex){
-
-                log.Error(ex.ToString());
-               
-            }
-        }
-
-
-        public int readFileCustomConfig() {
-            try{
-
-                int numberParsed = 0;
-                string ruteRelativeToCustomFile = HttpRuntime.AppDomainAppPath;
-                string ruteCustomFile = ruteRelativeToCustomFile + @"\customConfigFor.txt";
-                string configtxt = "";
-                using (StreamReader sr = File.OpenText(ruteCustomFile))
-                {
-                    string s = "";
-                    while ((s = sr.ReadLine()) != null)
-                    {
-                        configtxt = configtxt + s;
-                    }
-
-                    string[] parts = configtxt.Split(':');
-
-                    if (Int32.TryParse(parts[1], out numberParsed))
-                    {
-                        log.Warn("Value cannot be parse to integer.");
-                        numberParsed = int.Parse(parts[1]);
-                        return numberParsed;
-
-                    }
-                    else if (parts[1] == "")
-                    {
-                        log.Error("Value in customConfigFor.txt is empty, the loop config it is now the client number +100.");
-                        return 100;
-                    }
-                    else
-                    {
-                        log.Error("Value in customConfigFor.txt cannot be parsed to integer, the loop config it is now the client number +100.");
-                        return 100;
-                    }
-                }
-               
-  
-             }catch (Exception ex){
-
-                Console.WriteLine(ex.ToString());
-                return 0;
-            }
-        }
-
-        public void createFile( string listNumbersToFile) {
-
-            log.Info("Beginning of the createFile function");
-
-            string fileBase = "\nLog Entry :\n " + DateTime.Now.ToLongTimeString() + " " + DateTime.Now.ToLongDateString() + "\r\n  " + "\r\n  " + listNumbersToFile + "\r\n-------------------------------";
-            string ruteRelative = HttpRuntime.AppDomainAppPath;
-            string rute = ruteRelative+@"\Register.txt";
-            
-  
-            try
+            if (fileMetodes != null)
             {
 
-                // create file if not exists
-                if (!File.Exists(rute))
-                {
+                int numberToFor =fileMetodes.readFileCustomConfig();
+                log.Debug("value of number for loops: " + numberToFor);
 
-                    using (FileStream fs = File.Create(rute))
-                    {
-                        Byte[] info = new UTF8Encoding(true).GetBytes(fileBase);
-                        // Add some information to the file.
-                        fs.Write(info, 0, info.Length);
-                    }
+                return numberToFor; 
 
-                }
-                else {
+            }else {
 
-                    using (StreamWriter w = File.AppendText(rute))
-                    {
-                        Log(listNumbersToFile, w);
-
-                    }  
-                
-                }
-
-                log.Info("File created");
-                log.Info("End of the createFile function");
-              
+                    return 100; 
             }
+        } 
 
-            catch (Exception ex)
+        public void createFile(string listNumbersForFile)
+        {
+            if (fileMetodes != null)
             {
-                log.Error(ex.ToString());
-            }
-            
 
+                fileMetodes.createFile(listNumbersForFile);
+
+            }
+          
         }
 
         public string createListFizzBuzz(int number) {
@@ -146,7 +60,7 @@ namespace FizzBuzz
 
                 Boolean numberNoFizzBuzz = true;
 
-                int configNumberFor = readFileCustomConfig();
+                int configNumberFor = fileMetodes.readFileCustomConfig();
 
                 for (int i = number; i <= number + configNumberFor; i++)
                 {
@@ -201,7 +115,7 @@ namespace FizzBuzz
 
                 string listNumbers = createListFizzBuzz(numberGet);
 
-                createFile(listNumbers);
+                fileMetodes.createFile(listNumbers);
 
                 log.Info("End of the GetListNumber function");
 

@@ -36,3 +36,73 @@
 19:52:06,452 [thread] DEBUG - Number = 1
 19:52:06,453 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
 19:52:09,432 [thread] WARN - Warning: value has not been introduced. 
+22:14:25,724 [thread] INFO - Value sent correctly.
+22:14:25,730 [thread] DEBUG - Number = 12
+22:14:25,730 [thread] DEBUG - List of numbers = Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112
+22:14:28,909 [thread] ERROR - Error: the value is not a integer number
+22:14:38,025 [thread] ERROR - Error: the value is not a integer number
+22:14:40,057 [thread] ERROR - Error: the value is not a integer number
+22:14:42,109 [thread] WARN - Warning: value has not been introduced. 
+22:22:14,961 [thread] INFO - Value sent correctly.
+22:22:14,967 [thread] DEBUG - Number = 1
+22:22:14,967 [thread] DEBUG - List of numbers = System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.GetListNumber(Int32 numberGet) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 116
+22:24:55,542 [thread] INFO - Value sent correctly.
+22:24:55,545 [thread] DEBUG - Number = 1
+22:24:55,546 [thread] DEBUG - List of numbers = System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 61
+22:24:56,158 [thread] INFO - Value sent correctly.
+22:24:56,158 [thread] DEBUG - Number = 1
+22:24:56,159 [thread] DEBUG - List of numbers = System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 61
+22:27:02,749 [thread] INFO - Value sent correctly.
+22:27:02,753 [thread] DEBUG - Number = 1
+22:27:02,754 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:27:02,855 [thread] INFO - Value sent correctly.
+22:27:02,855 [thread] DEBUG - Number = 1
+22:27:02,856 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:30:11,736 [thread] INFO - Value sent correctly.
+22:30:11,740 [thread] DEBUG - Number = 1
+22:30:11,741 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:36:21,283 [thread] ERROR - Error: the value is not a integer number
+22:36:26,335 [thread] INFO - Value sent correctly.
+22:36:26,335 [thread] DEBUG - Number = 1
+22:36:26,336 [thread] DEBUG - List of numbers = System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.GetListNumber(Int32 numberGet) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 118
+22:39:53,228 [thread] INFO - Value sent correctly.
+22:39:53,229 [thread] DEBUG - Number = 8
+22:39:53,230 [thread] DEBUG - List of numbers = System.NullReferenceException: Referencia a objeto no establecida como instancia de un objeto.
+   en FizzBuzz.FizzBuzz.createListFizzBuzz(Int32 number) en C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\EmployeeService\FizzBuzz.svc.cs:línea 63
+22:43:54,238 [thread] INFO - Value sent correctly.
+22:43:54,241 [thread] DEBUG - Number = 1
+22:43:54,242 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, 
+22:51:39,495 [thread] INFO - Value sent correctly.
+22:51:39,499 [thread] DEBUG - Number = 1
+22:51:39,500 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:55:05,917 [thread] INFO - Value sent correctly.
+22:55:05,923 [thread] DEBUG - Number = 1
+22:55:05,923 [thread] DEBUG - List of numbers = 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101
+22:59:36,855 [thread] INFO - Value sent correctly.
+22:59:36,857 [thread] DEBUG - Number = 45
+22:59:36,857 [thread] DEBUG - List of numbers = FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112, 113, Fizz, Buzz, 116, Fizz, 118, 119, FizzBuzz, 121, 122, Fizz, 124, Buzz, Fizz, 127, 128, Fizz, Buzz, 131, Fizz, 133, 134, FizzBuzz, 136, 137, Fizz, 139, Buzz, Fizz, 142, 143, Fizz, Buzz
+01:00:13,856 [thread] INFO - Value sent correctly.
+01:00:13,858 [thread] DEBUG - Number = 11
+01:00:13,858 [thread] DEBUG - List of numbers = 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz
+01:04:51,786 [thread] INFO - Value sent correctly.
+01:04:51,789 [thread] DEBUG - Number = -50
+01:04:51,790 [thread] DEBUG - List of numbers = Buzz, -49, Fizz, -47, -46, FizzBuzz, -44, -43, Fizz, -41, Buzz, Fizz, -38, -37, Fizz, Buzz, -34, Fizz, -32, -31, FizzBuzz, -29, -28, Fizz, -26, Buzz, Fizz, -23, -22, Fizz, Buzz, -19, Fizz, -17, -16, FizzBuzz, -14, -13, Fizz, -11, Buzz, Fizz, -8, -7, Fizz, Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz
+2018-08-17[thread] INFO - Value sent correctly.
+2018-08-17[thread] DEBUG - Number = -5
+2018-08-17[thread] DEBUG - List of numbers = Buzz, -4, Fizz, -2, -1, FizzBuzz, 1, 2, Fizz, 4, Buzz, Fizz, 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz
+2018.08.17-01_08_04[thread] INFO - Value sent correctly.
+2018.08.17-01_08_04[thread] DEBUG - Number = 10
+2018.08.17-01_08_04[thread] DEBUG - List of numbers = Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz
+2018-08-17  01:09:02[thread] INFO - Value sent correctly.
+2018-08-17  01:09:02[thread] DEBUG - Number = 7
+2018-08-17  01:09:02[thread] DEBUG - List of numbers = 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107
+2018-08-17  01:09:52[thread] INFO - Value sent correctly.
+2018-08-17  01:09:52[thread] DEBUG - Number = 7
+2018-08-17  01:09:52[thread] DEBUG - List of numbers = 7, 8, Fizz, Buzz, 11, Fizz, 13, 14, FizzBuzz, 16, 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107
+2018-08-17  01:10:48[22] INFO - Value sent correctly.
+2018-08-17  01:10:48[22] DEBUG - Number = 17
+2018-08-17  01:10:48[22] DEBUG - List of numbers = 17, Fizz, 19, Buzz, Fizz, 22, 23, Fizz, Buzz, 26, Fizz, 28, 29, FizzBuzz, 31, 32, Fizz, 34, Buzz, Fizz, 37, 38, Fizz, Buzz, 41, Fizz, 43, 44, FizzBuzz, 46, 47, Fizz, 49, Buzz, Fizz, 52, 53, Fizz, Buzz, 56, Fizz, 58, 59, FizzBuzz, 61, 62, Fizz, 64, Buzz, Fizz, 67, 68, Fizz, Buzz, 71, Fizz, 73, 74, FizzBuzz, 76, 77, Fizz, 79, Buzz, Fizz, 82, 83, Fizz, Buzz, 86, Fizz, 88, 89, FizzBuzz, 91, 92, Fizz, 94, Buzz, Fizz, 97, 98, Fizz, Buzz, 101, Fizz, 103, 104, FizzBuzz, 106, 107, Fizz, 109, Buzz, Fizz, 112, 113, Fizz, Buzz, 116, Fizz
