@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "EmployeeService\FizzBuzz.csproj", "{9FD5C19E-2FE7-411A-B703-A89195B28898}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "logicLayer\FizzBuzz.csproj", "{9FD5C19E-2FE7-411A-B703-A89195B28898}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
