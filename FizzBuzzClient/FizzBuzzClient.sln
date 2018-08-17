@@ -1,18 +1,18 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FizzBuzzClient", "..\presentationLayer\FizzBuzzClient\", "{B7D238A9-0D8B-4889-9794-673318A7B58A}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "FizzBuzzClient", "presentationLayer\FizzBuzzClient\", "{B7D238A9-0D8B-4889-9794-673318A7B58A}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/FizzBuzzClient"
-		Debug.AspNetCompiler.PhysicalPath = "..\presentationLayer\FizzBuzzClient\"
+		Debug.AspNetCompiler.PhysicalPath = "presentationLayer\FizzBuzzClient\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\FizzBuzzClient\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/FizzBuzzClient"
-		Release.AspNetCompiler.PhysicalPath = "..\presentationLayer\FizzBuzzClient\"
+		Release.AspNetCompiler.PhysicalPath = "presentationLayer\FizzBuzzClient\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\FizzBuzzClient\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
