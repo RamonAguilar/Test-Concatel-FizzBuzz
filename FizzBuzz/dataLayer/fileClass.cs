@@ -11,6 +11,8 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Web.UI;
 
+[assembly: log4net.Config.XmlConfigurator(Watch = true)]
+
 namespace FizzBuzz
 {
     public class fileClass 
@@ -88,7 +90,7 @@ namespace FizzBuzz
             {
 
                 Console.WriteLine(ex.ToString());
-                return 0;
+                return 100;
             }
         }
 

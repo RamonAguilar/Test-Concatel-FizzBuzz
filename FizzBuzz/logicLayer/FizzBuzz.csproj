@@ -68,7 +68,6 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="fileClass.cs" />
     <Compile Include="FizzBuzz.svc.cs">
       <DependentUpon>FizzBuzz.svc</DependentUpon>
     </Compile>
@@ -83,6 +82,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\dataLayer\dataLayer.csproj">
+      <Project>{E788B94E-A668-497E-ACC2-66046CDBAA99}</Project>
+      <Name>dataLayer</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />

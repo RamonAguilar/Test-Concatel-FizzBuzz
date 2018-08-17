@@ -1,0 +1,8 @@
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\bin\Debug\dataLayer.dll.config
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\bin\Debug\dataLayer.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\bin\Debug\dataLayer.pdb
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\bin\Debug\log4net.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\bin\Debug\log4net.xml
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\obj\Debug\dataLayer.csprojResolveAssemblyReference.cache
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\obj\Debug\dataLayer.dll
+C:\Users\Ana\Documents\GitHub\Prueba-Concatel-FizzBuzz\FizzBuzz\dataLayer\obj\Debug\dataLayer.pdb
