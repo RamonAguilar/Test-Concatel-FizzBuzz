@@ -25,26 +25,45 @@ namespace FizzBuzz
 
         public int readFileCustomConfig()
         {
-            if (fileMetodes != null)
+            try
             {
+                if (fileMetodes != null)
+                {
 
-                int numberToFor =fileMetodes.readFileCustomConfig();
-                log.Debug("value of number for loops: " + numberToFor);
+                    int numberToFor = fileMetodes.readFileCustomConfig();
+                    log.Debug("value of number for loops: " + numberToFor);
 
-                return numberToFor; 
+                    return numberToFor;
 
-            }else {
+                }
+                else
+                {
 
-                    return 100; 
+                    return 100;
+                }
+            }catch(Exception e){
+
+                log.Error(e.ToString());
+                return 100;
+            
             }
         } 
 
         public void createFile(string listNumbersForFile)
         {
-            if (fileMetodes != null)
+            try
+            {
+                if (fileMetodes != null)
+                {
+
+                    fileMetodes.createFile(listNumbersForFile);
+
+                }
+            }
+            catch (Exception e)
             {
 
-                fileMetodes.createFile(listNumbersForFile);
+                log.Error(e.ToString());         
 
             }
           
@@ -101,7 +120,7 @@ namespace FizzBuzz
             }catch(Exception e){
 
                 log.Error(e.ToString());
-                return e.ToString();
+                return "Error the aplication can not work.";
             
             }
         }
@@ -126,7 +145,7 @@ namespace FizzBuzz
             catch (Exception e) {
 
                 log.Error(e.ToString());
-                return e.ToString();
+                return "Error the aplication can not work.";
 
             }
         }
